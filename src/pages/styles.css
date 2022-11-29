@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+
+.cam{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: hp('40%');
+width: hp('40%');
+}
+.preview {
+  border-radius: 120;
+  height: 240,
+  
+}
+
+
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+ 
+
+}
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  border: 2px solid red;
+}
+
+
+.rectangleContainer {
+  flex: 1;
+  align-Items: center;
+  justify-Content: center;
+  background-Color: transparent;
+},
+
+.rectangle {
+  height: 250;
+  width: 480;
+  border-Width: 2;
+  border-Color: 'blue';
+  background-Color: 'transparent';
+}
+
+.styleModal {
+  position: 'absolute';
+  top: '50%';
+  left: '50%';
+  transform: 'translate(-50%, -50%)';
+  width: 400;
+  background-color: 'background.paper';
+  border: '2px solid #000';
+  box-shadow: 24;
+  
+};
